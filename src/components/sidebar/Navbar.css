@@ -1,0 +1,71 @@
+/* Basic styles for the side nav */
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s ease;
+    left: 0;
+
+  }
+
+  
+  .side-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-nav ul li {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .side-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .side-nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  /* Style for the toggle button */
+  .menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle:hover {
+    background-color: #575757;
+  }
+  
+  /* Add space for the sidebar */
+  .content {
+    margin-left: 260px; /* To make room for the sidebar */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+  
